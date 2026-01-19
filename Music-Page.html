@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rev. Joseph "Pops" Villalobos Music</title>
+    <style>
+        body {
+            background-color: #fdfaf6; /* Soft parchment color */
+            font-family: 'Georgia', serif;
+            color: #2e3b23; /* Forest green tint */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            max-width: 100%; /* Ensures it fits on mobile screens */
+            width: 500px;    /* Adjust this to change the size of your logo */
+            height: auto;
+            border-radius: 0; /* REMOVED THE CIRCLE */
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #555;
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+
+        /* The Grid Layout */
+        .music-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .song-container {
+            background: #ffffff;
+            padding: 25px;
+            border: 1px solid #e0d8c3;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .song-container:hover {
+            transform: translateY(-5px);
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #3e4a34;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 30px;
+            font-size: 0.9rem;
+            border-top: 1px solid #e0d8c3;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/Cleft%20logo.jpg" alt="Wildroots Hedge Logo" class="logo">
+        <h1>THE WILDROOTS HEDGE</h1>
+        <p class="subtitle">Rev. Joseph "Pops" Villalobos Music</p>
+    </header>
+
+    <div class="music-gallery">
+
+        <div class="song-container">
+            <h3>The Long Way to the Altar</h3>
+            <p>A Folk Ballad</p>
+            <audio controls>
+                <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/The-Long-Way-to-the-Altar.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="song-container">
+            <h3>Upcoming Track</h3>
+            <p>Description goes here</p>
+            <audio controls><source src="#" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="song-container">
+            <h3>Upcoming Track</h3>
+            <p>Description goes here</p>
+            <audio controls><source src="#" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="song-container">
+            <h3>Upcoming Track</h3>
+            <p>Description goes here</p>
+            <audio controls><source src="#" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="song-container">
+            <h3>Upcoming Track</h3>
+            <p>Description goes here</p>
+            <audio controls><source src="#" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="song-container">
+            <h3>Upcoming Track</h3>
+            <p>Description goes here</p>
+            <audio controls><source src="#" type="audio/mpeg"></audio>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 THE WILDROOTS HEDGE | Cosby, Tennessee
+    </footer>
+
+</body>
+</html>
