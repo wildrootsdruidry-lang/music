@@ -36,6 +36,18 @@
             margin: 40px auto;
         }
 
+        /* This makes the divider span the full width of the grid */
+        .section-divider {
+            grid-column: 1 / -1;
+            margin: 40px 0;
+        }
+
+        .section-divider img {
+            max-width: 100%;
+            width: 400px; /* Adjust this to make the mushroom divider bigger or smaller */
+            height: auto;
+        }
+
         .song-container {
             background-color: #f4f1ea;
             padding: 25px;
@@ -45,7 +57,6 @@
             transition: transform 0.2s;
         }
 
-        /* Styles for the album covers */
         .album-art {
             width: 100%;
             max-height: 300px;
@@ -84,7 +95,6 @@
             <p>One of my originals off my up-coming debut album. Appalachian Pagan Folk</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/The-Long-Way-to-the-Altar.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
@@ -94,17 +104,15 @@
             <p>One of my originals off my up-coming debut album. Appalachian Pagan Folk</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/May-You-Be-Blessed-With-A-Good-Fire.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
         <div class="song-container">
-            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/ShadyGrove.jpg" alt="The Long Way to the Altar Cover" class="album-art">
+            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/ShadyGrove.jpg" alt="Shady Grove Cover" class="album-art">
             <h3>Shady Grove</h3>
             <p>A Mountain Folk Classic</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/Shady-Grove.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
@@ -114,47 +122,46 @@
             <p>Me singing a cover over a backing track</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/CountryIs.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
+        <div class="section-divider">
+            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/Mushroom-Divider.png" alt="Mushroom Divider">
+            <h2 style="color: #4a5d3e; font-style: italic;">Grateful Dead Covers</h2>
+        </div>
         <div class="song-container">
-            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="This Is Country" class="album-art">
+            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="Casey Jones" class="album-art">
             <h3>Casey Jones</h3>
             <p>Love my Grateful Dead Covers</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/Casey-Jones.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
         <div class="song-container">
-            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="Dead Covers" class="album-art">
+            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="Friend of the Devil" class="album-art">
             <h3>Friend Of The Devil</h3>
             <p>Learning a lot of Dead Covers. Especially now that Bob is gone.</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/Friend-Of-The-Devil.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
-<div class="song-container">
-            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="Dead Covers" class="album-art">
+        <div class="song-container">
+            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="Franklins Tower" class="album-art">
             <h3>Franklins Tower</h3>
             <p>One of my favorites.</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/Franklins-Tower.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
-<div class="song-container">
-            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="Dead Covers" class="album-art">
+        <div class="song-container">
+            <img src="https://raw.githubusercontent.com/wildrootsdruidry-lang/images/refs/heads/main/DeadCovers.jpg" alt="The Deal" class="album-art">
             <h3>The Deal</h3>
             <p>Was harder than it sounds on my vocals.</p>
             <audio controls controlsList="nodownload">
                 <source src="https://raw.githubusercontent.com/wildrootsdruidry-lang/music/main/The-Deal.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
             </audio>
         </div>
 
